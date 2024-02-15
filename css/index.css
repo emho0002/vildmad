@@ -4,7 +4,12 @@ img {
   display: block;
 }
 
-main {
+.sæson_grid_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 8fr;
+}
+
+.rotertekst {
+  writing-mode: vertical-rl;
+  text-align: center;
 }
